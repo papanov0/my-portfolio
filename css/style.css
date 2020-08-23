@@ -393,6 +393,10 @@ right: 0;
     color: #000000;
 }
 
+.pageclip-form__success__message {
+    color: #000000;
+}
+
 /* responcive */
 
 @media(max-width: 1100px) {
