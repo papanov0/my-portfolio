@@ -53,25 +53,11 @@
             <div class="container">
                 <h2 class="section-title">Со мной удобно работать</h2>
                 <div class="features-block">
+
                     <div class="features-item wow zoomInLeft">
-                        <img src="img/features/agreement-img.svg" alt="" class="features-img">
-                        <h3 class="features-title">По договору</h3>
-                        <span class="features-text">Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю как ИП без НДС.</span>
-                    </div>
-                    <div class="features-item wow zoomInDown">
-                        <img src="img/features/conversation-img.svg" alt="" class="features-img">
-                        <h3 class="features-title">Точно в срок</h3>
-                        <span class="features-text">В договоре прописана моя  ответственность за срок проекта. Если просрочу — плачу неустойку. </span>
-                    </div>
-                    <div class="features-item wow zoomInRight">
                         <img src="img/features/deadline-img.svg" alt="" class="features-img">
                         <h3 class="features-title">Ценник под вас</h3>
                         <span class="features-text">Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как складывается цена.</span>
-                    </div>
-                    <div class="features-item wow zoomInLeft">
-                        <img src="img/features/offer-img.svg" alt="" class="features-img">
-                        <h3 class="features-title">Премежуточные итоги</h3>
-                        <span class="features-text">Показываю работу поэтапно, а не <br>в последий момент перед <br>крайним сроком. </span>
                     </div>
                     <div class="features-item">
                         <img src="img/features/steps-img.svg" alt="" class="features-img">
@@ -79,10 +65,11 @@
                         <span class="features-text">Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год + SSL сертификат.</span>
                     </div>
                     <div class="features-item wow zoomInRight">
-                        <img src="img/features/storage-img.svg" alt="" class="features-img">
-                        <h3 class="features-title">Не брошу после сдачи</h3>
-                        <span class="features-text">Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции.</span>
+                        <img src="img/features/offer-img.svg" alt="" class="features-img">
+                        <h3 class="features-title">Премежуточные итоги</h3>
+                        <span class="features-text">Показываю работу поэтапно, а не <br>в последий момент перед <br>крайним сроком. </span>
                     </div>
+
                 </div>
                 <!-- /.features-block -->
             </div>
@@ -154,7 +141,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide projects-slide">
-                            <a href="https://kozhakentavr.ru/"><img src="img/project-img-3.jpg" alt="" class="project-image"></a>
+                            <a href="https://kozhakentavr.ru/" target="_blank"><img src="img/project-img-3.jpg" alt="" class="project-image"></a>
                             <div class="project-text">
                                 <h3 class="project-title">Сайт кожевенной мастерской “Кентавр”</h3>
                                 <div class="project-time">
@@ -198,6 +185,24 @@
                     <input type="text" class="input input-name" placeholder="Ваше имя">
                     <input type="text" class="input input-phone" placeholder="Ваш телефон">
                     <button class="button form-button">Бесплатная консультация</button>
+                </form>
+                <!-- Форма обратной связи для сайта с отправкой на почту --><style>[name=contact-form]{border-radius:2px;border-color:rgb(229,229,229) rgb(229,229,229) rgb(238,238,238);border-style:solid;border-width:1px;margin:0 8px;padding:18px 22px 10px;}
+                #ContactForm1_contact-form-name,#ContactForm1_contact-form-email,#ContactForm1_contact-form-email-message{display:block;width:100%;max-width:400px;-moz-box-sizing:border-box;box-sizing:border-box;margin-bottom:2%;padding:5px 2px 2px 5px;}
+                #ContactForm1_contact-form-email-message{max-width:100%;}</style>
+                <form name="contact-form">
+                <div style="color: rgba(14, 14, 14, 0.6);">Заполните форму ниже, и мы сами с вами свяжемся</div>
+                <!--Как к Вам обращаться:-->
+                <input class="contact-form-name" id="ContactForm1_contact-form-name" name="name" placeholder="Ваше имя" type="text" x-autocompletetype="name" />
+                <!--Email для связи:-->
+                <input class="contact-form-email" id="ContactForm1_contact-form-email" name="email" placeholder="Ваш e-mail" type="email" x-autocompletetype="email" />
+                <!--Ваше сообщение:-->
+                <textarea class="contact-form-email-message" id="ContactForm1_contact-form-email-message" name="email-message" placeholder="Ваш вопрос" rows="5"></textarea>
+                <input class="contact-form-button contact-form-button-submit" id="ContactForm1_contact-form-submit" type="button" value="Отправить" />
+                <br />
+                <div id="ContactForm1_contact-form-error-message">
+                </div>
+                <div id="ContactForm1_contact-form-success-message">
+                </div>
                 </form>
                 <!-- /.contacts-form -->
                 <div class="contacts-text">
